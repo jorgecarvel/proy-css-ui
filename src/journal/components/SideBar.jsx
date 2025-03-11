@@ -13,11 +13,11 @@ export const SideBar = ({ drawerWidth = 240 }) => {
             sx={{ 
                 display: { xs: 'block' },
                 '& .MuiDrawer-paper': { boxSizing: 'border-box', width: drawerWidth }
-            }}
+            }} 
         >
             <Toolbar>
                 <Typography variant='h6' noWrap component='div'>
-                    Fernando Herrera
+                    SideBar
                 </Typography>
             </Toolbar>
             <Divider />
